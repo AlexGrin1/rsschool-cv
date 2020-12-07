@@ -1,7 +1,6 @@
-# rsschool-cv/cv
-###Alexandr Hrynevich
-1. **Phone:** *+375(44)5369968* ;    **Email:** *a_grynevich@mail.ru* 
-1. ** Summary**
+### Alexandr Hrynevich
+1. ** Phone: ** *+375(44)5369968* ;    ** Email: ** *a_grynevich@mail.ru* 
+1. ** Summary **
  * My goal: 
 1. **Skills** 
 * HTML,CSS Basic;
