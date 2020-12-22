@@ -1,8 +1,10 @@
-body { margin:5px auto; max-width: 1024px; font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;background-size:cover ;/*background: rgba(142, 153, 152, 0.5)*/
+body { margin:5px auto; max-width: 1024px;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-size:cover ;
+    /*background: rgba(142, 153, 152, 0.5)*/
     /*background: url(https://www.ppt-backgrounds.net/thumbs/solid-light-grey--downloads.jpeg)*/;
     background: url(https://kovchegkrd.ru/wp-content/uploads/2016/09/90059-1536x1132.jpg);background-size:cover ;}
-    .head{
-        
+.head{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -11,7 +13,7 @@ body { margin:5px auto; max-width: 1024px; font-family:  Cambria, Cochin, Georgi
         width: 1024px;
         box-shadow: 0px 3px 0px rgb(10, 10, 10);
         z-index: 5;}
-    .container{ box-shadow: 0px 0px 15px rgb(12, 9, 9);
+.container{ box-shadow: 0px 0px 15px rgb(12, 9, 9);
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
