@@ -1,10 +1,8 @@
-body { margin:5px auto; max-width: 1024px;
-    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-size:cover ;
-    /*background: rgba(142, 153, 152, 0.5)*/
+body { margin:5px auto; max-width: 1024px; font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;background-size:cover ;/*background: rgba(142, 153, 152, 0.5)*/
     /*background: url(https://www.ppt-backgrounds.net/thumbs/solid-light-grey--downloads.jpeg)*/;
     background: url(https://kovchegkrd.ru/wp-content/uploads/2016/09/90059-1536x1132.jpg);background-size:cover ;}
-.head{
+    .head{
+        
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -13,7 +11,7 @@ body { margin:5px auto; max-width: 1024px;
         width: 1024px;
         box-shadow: 0px 3px 0px rgb(10, 10, 10);
         z-index: 5;}
-.container{ box-shadow: 0px 0px 15px rgb(12, 9, 9);
+    .container{ box-shadow: 0px 0px 15px rgb(12, 9, 9);
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -39,7 +37,7 @@ body { margin:5px auto; max-width: 1024px;
         align-items: center;
         margin-left: 50px;
         margin-top: 10px;
-        width: 200px;
+        width: 250px;
         }
     .cont2{ 
         display: flex;
@@ -48,6 +46,7 @@ body { margin:5px auto; max-width: 1024px;
         align-items: center;
         margin-left: 50px;
         margin-top: 10px;
+        padding-bottom: 10px;
         width: 600px;
         background:  rgba(255, 255, 255, 0.241);
         align-self: flex-end;
@@ -66,7 +65,8 @@ body { margin:5px auto; max-width: 1024px;
     .notmark{list-style-type: none;}
     .artical{margin-bottom: 5px; margin-top: 1px; text-align: left; text-decoration: underline; padding: 2px; border-radius: 10px; font-size: 22px;}
     .info{margin-top: 5px;margin-bottom: auto;}
-    p{margin-top: 20px; margin-bottom: 20px; padding-left: 20px; padding-right: 10px; }
+    p{margin-top: 10px; margin-bottom: 10px; padding-left: 20px; padding-right: 10px; }
+    
     .left{padding-left: 0px; }
     center{text-align: center; ; }
     
@@ -91,13 +91,13 @@ body { margin:5px auto; max-width: 1024px;
         .container{ flex-direction: column-reverse; justify-content: center; 
             margin: 5px auto 20px auto; width: 90vw; padding-top: 5px; background:  #ecf0efee;}
         .container2{ margin-left: 5px;margin-right: 15px;}
-        .cont1{ font-size: 8px;margin-left: 5px;margin-right: 15px;}
+        .cont1{ font-size: 14px;margin-left: 5px;margin-right: 15px;}
         .cont2{justify-content: center;font-size: 14px; margin-left: 5px;margin-right: 5px; order: 5;}
         .cont3{justify-content: center; margin-left: 0 auto; }
         .h1{font-size: 35px;}
         .h2{font-size: 20px;margin-left: 0 auto; text-align: center;}
         .artical{margin-top: 3px ;}
-        .img{ width: 100px; height: 100px; margin-bottom: 0px;}
+        .img{ width: 130px; height: 130px; margin-bottom: 0px;}
         p{margin-top: 2px; margin-bottom: 2px;}
         .contact{background:  #ecf0ef ;border-radius: 10px;}
       }
@@ -114,7 +114,7 @@ body { margin:5px auto; max-width: 1024px;
         .cont3{justify-content: center; margin-left: 0px;margin-right: 0px;}
         .h1{font-size: 18px;}
         .h2{font-size: 10px;margin-left: 0 auto; text-align: center; padding-right: 10px;}
-        .img{ width: 100px; height: 100px; margin-bottom: 0px;}
+        .img{ width: 120px; height: 120px; margin-bottom: 0px;}
         p{margin-top: 0px; margin-bottom: 0px;}
         .artical{margin-top: 3px ; font-size: 15px;}
         .info{font-size: 12px;}
