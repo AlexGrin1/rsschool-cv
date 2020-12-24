@@ -1,122 +1,244 @@
-body { margin:5px auto; max-width: 1024px; font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;background-size:cover ;/*background: rgba(142, 153, 152, 0.5)*/
-    /*background: url(https://www.ppt-backgrounds.net/thumbs/solid-light-grey--downloads.jpeg)*/;
-    background: url(https://kovchegkrd.ru/wp-content/uploads/2016/09/90059-1536x1132.jpg);background-size:cover ;}
-    .head{
-        
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        margin: 30px auto 0px auto;
-        width: 1024px;
-        box-shadow: 0px 3px 0px rgb(10, 10, 10);
-        z-index: 5;}
-    .container{ box-shadow: 0px 0px 15px rgb(12, 9, 9);
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        background:  #ecf0ef;
-        margin: 0px auto 20px auto;
-        width: 1024px;
-        padding-bottom: 5px;
-        
-        }
-   /* .container2{ border: 1px solid rgb(0, 247, 255);
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        background:  #ecf0ef;
-        margin: 30px 50px 20px 50px;
-        }*/
-    .cont1{ 
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        margin-left: 50px;
-        margin-top: 10px;
-        width: 250px;
-        }
-    .cont2{ 
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        margin-left: 50px;
-        margin-top: 10px;
-        padding-bottom: 10px;
-        width: 600px;
-        background:  rgba(255, 255, 255, 0.241);
-        align-self: flex-end;
-        box-shadow: 1px 1px 15px rgb(2, 19, 12);}
-    .cont3{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-     align-self: flex-end;
-        }
-    .contact{font-size: 18px; padding-left: 0px; font-family: 'Courier New', Courier, monospace;font-weight: 800;}
-    .img{ width: 200px; height: 200px;}
-    .h1{color: black; ; font-size: 60px; text-align: center;} 
-    .h2{background-color: aliceblue;border-radius: 1vw; font-size: 30px; text-align: center;}
-    .notmark{list-style-type: none;}
-    .artical{margin-bottom: 5px; margin-top: 1px; text-align: left; text-decoration: underline; padding: 2px; border-radius: 10px; font-size: 22px;}
-    .info{margin-top: 5px;margin-bottom: auto;}
-    p{margin-top: 10px; margin-bottom: 10px; padding-left: 20px; padding-right: 10px; }
-    
-    .left{padding-left: 0px; }
-    center{text-align: center; ; }
-    
-    a:hover{ transition: 0.2s;text-shadow: 1px 1px 1px rgb(11, 116, 107);}
-    
-    @media screen and (max-width: 1100px) {
-        body{width: 99vw;}
-        .head{width: 90vw; margin-left: 0 auto; margin-right: 0 auto;}
-        .container{background:  #ecf0efee; flex-direction: column-reverse;justify-content: center; width: 90vw;margin-left: 0 auto; margin-right: 0 auto;padding-top: 5px;}
-        .cont1{justify-content: center; margin: 2px 0px 2px 0px; width: auto;}
-        .cont2{justify-content: center; margin: 2px 0px 2px 0px; width: auto; box-shadow: 0px;}
-        .cont3{justify-content: center; margin-left: 0 auto ;}
-        .h1{font-size: 45px;}
-        .h2{font-size: 18px;margin-left: 0 auto; text-align: center;}
-        
-        }
-              
-    @media screen and (max-width: 900px) {
-        body{width: 98%; margin-left:0 auto}
-        .head{margin: 5px auto 20px auto; flex-direction: column; align-content:space-around;width: 90vw; }
-        .contact{font-size: 15px;}
-        .container{ flex-direction: column-reverse; justify-content: center; 
-            margin: 5px auto 20px auto; width: 90vw; padding-top: 5px; background:  #ecf0efee;}
-        .container2{ margin-left: 5px;margin-right: 15px;}
-        .cont1{ font-size: 14px;margin-left: 5px;margin-right: 15px;}
-        .cont2{justify-content: center;font-size: 14px; margin-left: 5px;margin-right: 5px; order: 5;}
-        .cont3{justify-content: center; margin-left: 0 auto; }
-        .h1{font-size: 35px;}
-        .h2{font-size: 20px;margin-left: 0 auto; text-align: center;}
-        .artical{margin-top: 3px ;}
-        .img{ width: 130px; height: 130px; margin-bottom: 0px;}
-        p{margin-top: 2px; margin-bottom: 2px;}
-        .contact{background:  #ecf0ef ;border-radius: 10px;}
-      }
-      @media screen and (max-width: 500px) {
-        body{width: 98%;}
-        .head{margin:15px auto 20px auto; flex-direction: column; align-content: center; width: 90vw;}
-        .contact{font-size: 10px;}
-        .container{ flex-direction: column-reverse; justify-content: center; 
-            margin: 15px auto 20px auto; width: 90vw; background:  #ecf0efdc; }
-        .container2{ margin-left: 0px;margin-right: 0px;}
-        
-        .cont1{ flex-wrap: wrap; font-size: 10px;margin-left: 0px;margin-right: 0px; }
-        .cont2{ font-size: 10px; margin-left: 0px;margin-right: 0px;order: 5; }
-        .cont3{justify-content: center; margin-left: 0px;margin-right: 0px;}
-        .h1{font-size: 18px;}
-        .h2{font-size: 10px;margin-left: 0 auto; text-align: center; padding-right: 10px;}
-        .img{ width: 120px; height: 120px; margin-bottom: 0px;}
-        p{margin-top: 0px; margin-bottom: 0px;}
-        .artical{margin-top: 3px ; font-size: 15px;}
-        .info{font-size: 12px;}
-        .contact{background:  #ecf0ef}
-      }            
+body {
+  margin: 5px auto;
+  max-width: 1024px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-size: cover; 
+  background: url(https://kovchegkrd.ru/wp-content/uploads/2016/09/90059-1536x1132.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.head_block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 30px auto 0 auto;
+  width: 1024px;
+  z-index: 5;
+}
+.container {
+  box-shadow: 0 0 15px rgb(12, 9, 9);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background: white;
+  margin: 0 auto 20px auto;
+  width: 1024px;
+  padding-bottom: 5px;
+}
+.cont1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 10px;
+  width: 250px;
+}
+.cont2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  width: 600px;
+  background: white;
+  align-self: flex-end;
+}
+.cont3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact {
+  font-size: 18px;
+  padding-left: 0;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 3px;
+}
+.img {
+  width: 200px;
+  height: 200px;
+}
+.head_title {
+  color: black;
+  font-size: 60px;
+  text-align: center;
+}
+.head_subtitle {
+  background-color: white;
+  font-size: 30px;
+  text-align: center;
+}
+.text{
+  text-align: justify;
+  text-indent: 22px;
+}
+.notmark {
+  list-style-type: none;
+}
+.subtitle {
+  margin-bottom: 5px;
+  margin-top: 1px;
+  text-align: left;
+  text-decoration: underline;
+  padding: 2px;
+  border-radius: 10px;
+  font-size: 22px;
+}
+.margin_text {
+  padding-left: 0;
+  margin-top: 5px;
+}
+.info {
+  margin-top: 5px;
+  margin-bottom: auto;
+}
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+.left {
+  padding-left: 0;
+}
+
+.center {
+  text-align: center;
+}
+.link{
+  text-decoration: none;
+  color:rgb(0, 0, 0)
+}
+a:hover {
+  transition: 0.2s;
+  text-shadow: 1px 0 2px rgb(0, 8, 1);
+}
+
+@media screen and (max-width: 1050px) {
+  body {
+    width: 99vw;
+  }
+  .head_block {
+    width: 90vw;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+  }
+  .container {
+    background: white;
+    flex-direction: column-reverse;
+    justify-content: center;
+    width: 90vw;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    padding-top: 5px;
+  }
+  .cont1 {
+    justify-content: center;
+    margin: 2px 0 2px 0;
+    width: auto;
+  }
+  .cont2 {
+    justify-content: center;
+    margin: 2px 0 2px 0;
+    width: auto;
+  }
+  .cont3 {
+    justify-content: center;
+    margin-left: 0 auto;
+  }
+  .head_title {
+    font-size: 45px;
+  }
+  .head_subtitle {
+    font-size: 18px;
+    margin-left: 0 auto;
+    text-align: center;
+  }
+  .contact {
+    background: white;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    width: 98%;
+  }
+  .head_block {
+    margin: 15px auto 20px auto;
+    flex-direction: column;
+    align-content: center;
+    width: 90vw;
+  }
+  .contact {
+    font-size: 10px;
+  }
+  .container {
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin: 15px auto 20px auto;
+    width: 90vw;
+    background: white;
+  }
+  .container2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .cont1 {
+    flex-wrap: wrap;
+    font-size: 10px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .cont2 {
+    font-size: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    order: 5;
+  }
+  .cont3 {
+    justify-content: center;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .head_title {
+    font-size: 22px;
+  }
+  .head_subtitle {
+    font-size: 10px;
+    margin-left: 0 auto;
+    text-align: center;
+    padding-right: 10px;
+  }
+  .img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 0;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .subtitle {
+    margin-top: 3px;
+    font-size: 15px;
+  }
+  .info {
+    font-size: 12px;
+  }
+  .text{
+    font-size: 12px;
+  }
+  .contact {
+    background: white;
+  }
+}
