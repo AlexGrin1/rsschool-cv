@@ -1,1 +1,265 @@
+body {
+  margin: 5px auto;
+  max-width: 1024px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background: url(https://kovchegkrd.ru/wp-content/uploads/2016/09/90059-1536x1132.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.head_block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 30px auto 0 auto;
+  width: 1024px;
+  z-index: 5;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background: white;
+  margin: 0 auto 20px auto;
+  width: 1024px;
+  padding-bottom: 5px;
+}
+.cont1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 10px;
+  width: 250px;
+}
+.cont2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  width: 600px;
+  background: white;
+  align-self: flex-end;
+}
+.cont3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact {
+  font-size: 18px;
+  padding-left: 0;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.img {
+  width: 200px;
+  height: 200px;
+}
+.head_title {
+  color: black;
+  font-size: 60px;
+  text-align: center;
+}
+.head_subtitle {
+  background-color: white;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.shadow {
+  background: white;
+  box-shadow: 0 0 15px black;
+}
+.text {
+  text-align: justify;
+  text-indent: 22px;
+}
+.notmark {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subtitle {
+  margin-bottom: 5px;
+  margin-top: 1px;
+  text-align: left;
+  text-decoration: underline;
+  padding: 2px;
+  border-radius: 10px;
+  font-size: 22px;
+}
+.margin_text {
+  padding-left: 0;
+  margin-top: 5px;
+}
+.info {
+  margin-top: 5px;
+  margin-bottom: auto;
+}
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+.left {
+  padding-left: 0;
+}
+.center {
+  text-align: center;
+}
+.link {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  margin-left: 0;
+  margin-right: 0;
+  padding: 5px;
+}
+.link-text {
+  text-decoration: none;
+  color: rgb(25, 21, 80);
+}
+a:hover {
+  transition: 0.2s;
+  text-shadow: 1px 0 2px rgb(0, 8, 1);
+}
+@media screen and (max-width: 1050px) {
+  body {
+    width: 97vw;
+  }
+  .head_block {
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container {
+    background: white;
+    flex-direction: column-reverse;
+    justify-content: center;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+  }
+  .cont1 {
+    justify-content: center;
+    margin: 2px 0 2px 0;
+    width: auto;
+  }
+  .cont2 {
+    justify-content: center;
+    margin: 2px 0 2px 0;
+    width: auto;
+  }
+  .cont3 {
+    justify-content: center;
+    margin-left: 0 auto;
+  }
+  .head_title {
+    font-size: 45px;
+  }
+  .head_subtitle {
+    font-size: 18px;
+    margin-left: 0 auto;
+    text-align: center;
+  }
+  .contact {
+    background: white;
+  }
+}
+@media screen and (max-width: 500px) {
+  body {
+    width: 98%;
+  }
+  .head_block {
+    margin: 15px auto 20px auto;
+    flex-direction: column;
+    align-content: center;
+  }
+  .contact {
+    font-size: 12px;
+  }
+  .container {
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin: 15px auto 20px auto;
+    width: 90vw;
+    background: white;
+  }
+  .container2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
 
+  .cont1 {
+    flex-wrap: wrap;
+    font-size: 12px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .cont2 {
+    font-size: 12px;
+    margin-left: 0;
+    margin-right: 0;
+    order: 5;
+  }
+  .cont3 {
+    justify-content: center;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .head_title {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .head_subtitle {
+    font-size: 12px;
+    margin-left: auto;
+    text-align: center;
+    padding-right: 10px;
+  }
+  .img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 0;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .subtitle {
+    margin-top: 3px;
+    font-size: 15px;
+  }
+  .info {
+    font-size: 12px;
+  }
+  .text {
+    font-size: 12px;
+  }
+  .margin_text {
+    font-size: 12px;
+  }
+  .contact {
+    background: white;
+  }
+}
