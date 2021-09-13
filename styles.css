@@ -2,6 +2,7 @@ body {
   margin: 5px auto;
   max-width: 1024px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: rgb(255, 255, 255);
   background: url(https://kovchegkrd.ru/wp-content/uploads/2016/09/90059-1536x1132.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -15,6 +16,11 @@ body {
   margin: 30px auto 0 auto;
   width: 1024px;
   z-index: 5;
+}
+.footer-block {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 .container {
   display: flex;
@@ -64,7 +70,6 @@ body {
 }
 .img {
   width: 200px;
-  height: 200px;
 }
 .head_title {
   color: black;
@@ -239,7 +244,6 @@ a:hover {
   }
   .img {
     width: 120px;
-    height: 120px;
     margin-bottom: 0;
   }
   p {
