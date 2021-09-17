@@ -1,88 +1,172 @@
 <!Doctype html>
 <html lang="en">
+
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name="viewport" content="width=device-width">
-    <link rel="icon" type="image/png" sizes="250x250" href="https://p7.hiclipart.com/preview/817/219/681/curriculum-vitae-management-afacere-cornell-university-logo-curriculum-vitae-template.jpg">
+    <link rel="icon" type="image/png" sizes="250x250"
+        href="https://p7.hiclipart.com/preview/817/219/681/curriculum-vitae-management-afacere-cornell-university-logo-curriculum-vitae-template.jpg">
     <link rel="stylesheet" href="./styles.css">
     <title>Front-End || Alexander Hr.</title>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </head>
-<body >
-    <header class="head_block">
-        <div class="cont3">
+
+<body>
+    <header class="head-block">
+        <div class="head-block__avatar">
             <figure>
-                <img  class="img" src="./image/my_foto1.png"  alt="avatar" title="Alexander" >
+                <img class="img" src="./image/my_foto1.png" alt="avatar" title="Alexander">
             </figure>
         </div>
-        <div > 
+        <div class="head-block__subtitle">
+            <nav class="page-navigation">
+                <a href="#">HOME</a>
+                <a href="#skills">SKILLS</a>
+                <a href="#works">WORKS</a>
+            </nav>
             <p class="head_title"> Alexander Hrynevich </p>
-            <p class="head_subtitle shadow">Objective: Junior Front-End Developer</p>
-            <ul class="contact shadow">
-                <li class="notmark"><img src="./image/phone.png"  title="Phone" height="16" width="16"><a href="tel:+375445369968" alt="phone" title="Phone" class="link" >  +375(44)536-99-68  </a></li> 
-                <li class="notmark"><img src="./image/mail.png"  height="16" width="16" title="Send mail"> <a href="mailto:a_grynevich@mail.ru" target="_blank" class="link" title="Send mail"> a_grynevich@mail.ru  </a></li>
-                <li class="notmark"><img src="./image/github.png"  width="16" height="16" title="AlexGrin1"> <a href="https://github.com/AlexGrin1" target="_blank" class="link" alt="AlexGrin1" title="AlexGrin1"> github.com/AlexGrin1</a></li>
-            </ul>
+            <p class="head-block__subtitle_mini shadow">Junior Frontend Developer</p>
+           
         </div>
     </header>
-    <main class="container shadow">
-        <section class="cont1">
-            <h3 class="subtitle" >Education</h3>
-            <p class="center">HIGHER TECHNICAL </p>
-            <ul class="margin_text">
-                <li class="notmark">2010-2016:<br> Sukhoi State Technical University of Gomel</li>     
+    <main class="container">
+        <aside class="cont1"  id="skills">
+            <h3 class="subtitle">Contact</h3>
+            <p>Location: Minsk/Belarus</p>
+            <ul class="contact">
+                <li class="notmark"><img class="invert" src="./image/phone.png" title="Phone" height="20" width="20"><a
+                        href="tel:+375445369968" alt="phone" title="Phone" class="link"> +375(44)536-99-68 </a></li>
+                <li class="notmark"><img class="invert" src="./image/mail.png" height="20" width="20" title="Send mail">
+                    <a href="mailto:a_grynevich@mail.ru" target="_blank" class="link" title="Send mail">
+                        a_grynevich@mail.ru </a></li>
+                <li class="notmark"><img class="invert" src="./image/github.png" width="20" height="20"
+                        title="AlexGrin1"> <a href="https://github.com/AlexGrin1" target="_blank" class="link"
+                        alt="AlexGrin1" title="AlexGrin1"> github.com/AlexGrin1</a></li>
             </ul>
-            <h3 class="subtitle left">Language skills</h3>
-            <ul class="margin_text">
-                <li class="notmark">English - Elementary</li>
+            <h3 class="subtitle">Education</h3>
+            <p>HIGHER TECHNICAL </p>
+            <ul>
+                <li class="date">2020-2021</li>
+                <li> UpSkill Lab - EPAM (Frontend)</li>
+                <li class="date">2010-2016</li>
+                <li> Sukhoi State Technical University of Gomel</li>
             </ul>
-            <h3 class="subtitle left">Skills</h3>
-            <ul class="info">
-                <li>HTML(HTML5), CSS(CSS3) </li>
-                <li>JavaScript</li>
-                <li>Version control: Git</li>
-                <li>Tools:</li>
-                    <ul>
-                        <li>VS Code</li>
-                        <li>Atom</li>
-                    </ul>
-                <li>Adaptive layout</li>
-                <li>OOP methodologies</li>
-             </ul>
-        </section>
-        <section > 
-            <div class="cont2" >
+            <h3 class="subtitle">Language skills</h3>
+            <ul>
+                <li>English - Elementary</li>
+            </ul>
+            <h3 class="subtitle">Skills</h3>
+            <ul class="skill-icons">
+                <li><img class="icon" src="./icons/css.png" alt="CSS" title="CSS">
+                </li>
+                <li><img class="icon" src="./icons/html.jpg" alt="HTML" title="HTML">
+                </li>
+                <li><img class="icon invert" src="./icons/git.png" alt="GIT" title="GIT">
+                </li>
+                <li><img class="icon" src="./icons/webpack.png" alt="Webpack" title="Webpack">
+                </li>
+                <li><img class="icon" src="./icons/js.png" alt="JavaScript" title="JavaScript"></li>
+                <li><img class="icon" src="./icons/sass.png" alt="SCSS" title="SCSS">
+                </li>
+                <li><img class="icon" src="./icons/vscode.png" alt="VS Code" title="VS Code">
+                </li>
+                <li><img class="icon" src="./icons/figma.svg" alt="Figma" title="Figma">
+                </li>
+                </figure>
+        </aside>
+        <section>
+            <div class="cont2">
                 <h3 class="subtitle">Summary</h3>
-                <p class="text">Understanding of various methodologies: Waterfall, Agile, Scrum. Ability to understand someone else's code. Intensive training completed UpSkill Lab - EPAM for Front End developer. Experience in developing personal projects. Aspiring to be a FrontEnd developer for Epam.</p>
+                <div class="text">
+                    I am a novice Frontend developer. I am a graduate of the UPSkill Lab - EPAM course. My goal for the
+                    near future is to get and consolidate the necessary knowledge and skills necessary for the position
+                    of Junior Frontend Developer.<br><br>I like to spend time with my family, travel. I love humor,
+                    various equipment, cars and motorsport ...and of course, write code.</div>
+                <br>
                 <h3 class="subtitle">Additional qualifications</h3>
-                    <ul class="info ">
-                        <li>Computer Science Basics on<a href="https://learn.epam.com" target="_blank" class="link-text" alt="learn.epam.com" title="learn.epam.com"> learn.epam.com </a></li>
-                        <li> Online cource of HTML, CSS and JS on <a href="https://ru.code-basics.com" target="_blank" class="link-text" alt="ru.code-basics.com" title="ru.code-basics.com"> code-basics.com</a></li>
-                        <li>Completed the course "Python - development for beginners" on <a href="https://netology.ru/" target="_blank" class="link-text" alt="https://netology.ru/" title="Netology.ru">Netology.ru </a>. <a href="./image/certificate.png" target="_blank" class="link-text" alt="Certificate" title="Show certificate">Certificate</a>.</li>
-                        <li><a href="https://careers.epam.by/training/upskilllab" target="_blank" class="link-text" alt="upskilllab" title="UpSkill Lab">UpSkill Lab - Epam</a></li>
-                    </ul>
+                <ul>
+                    <li class="date">Dec 2020- Aug 2021</li>
+                    <li> Completed the course UpSkill Lab -EPAM (Frontend developer)</li>
+                    <li class="date">Nov 2020- Dec 2020</li>
+                    <li> Completed the course "Python - development for beginners" on Netology.ru.</li>
+                    <li class="date">2020 - self education</li>
+                    Computer Science Basics on<a href="https://learn.epam.com" target="_blank" class="link-text"
+                        alt="learn.epam.com" title="learn.epam.com"> learn.epam.com </a>
+                    <br>
+                    HTML,CSS Basic; Online cource of HTML, CSS and JS on <a href="https://ru.code-basics.com"
+                        target="_blank" class="link-text" alt="ru.code-basics.com" title="ru.code-basics.com">
+                        code-basics.com</a>
+                </ul>
                 <h3 class="subtitle">Personal qualities</h3>
                 <ul class="info">
-                    <li>Despire to master new technologies and tools</li>
-                    <li>Responsible, disciplined</li>
-                    <li>Resolute</li>
-                    <li>Creative</li>
-                    <li>Kind-hearted</li>
-                    <li>Focus on results</li>
-                    <li>Punctual</li>
-                    <li>Analytical  mind</li>
-                    <li>Healthy lifestyle supporter</li>
-                 </ul>
-            </div>
-        </section>
-     </main>
+                    <li class="info__element">Despire to master new technologies and tools</li>
+                    <li class="info__element">Focus on results</li>
+                    <li class="info__element">Punctual</li>
+                    <li class="info__element">Analytical mind</li>
+                    <li class="info__element">Responsible</li>
+                    <li class="info__element">Disciplined</li>
+                    <li class="info__element">Creative</li>
+                    <li class="info__element">Kind-hearted</li>
+                    <li class="info__element">Healthy lifestyle supporter</li>
+                </ul>
+                <br>
+                <h3 class="subtitle">works and code</h3>
+                <div class="examples-code" id="works">
+                    <a href="https://alexgrin1.github.io/Fancy-Weather/" target="_blank"><img class="examples-code__image" src="./image/fancy2.png" alt="Fancy" title="Fancy Weather" ></a>
+                    <div class="examples-code__describtion"><span>Fancy-Weather</span>An application that shows the weather depending on the location of the user</div>
+                </div>
+                <div class="examples-code">
+                    <div class="examples-code__describtion"><span>Raindrops</span>Application - a math simulator that allows you to consolidate the skills of arithmetic operations: addition, subtraction, multiplication and division.</div>
+                    <a href="https://alexgrin1.github.io/Raindrops/" target="_blank"><img class="examples-code__image" src="./image/raindrops1.png" alt="Raindrops" title="Raindrops"></a>
+                </div>
+                <div class="examples-code">
+                    <a href="https://alexgrin1.github.io/Calculator/" target="_blank"><img class="examples-code__image" src="./image/calc.png" alt="Calculator" title="Calculator"></a>
+                    <div class="examples-code__describtion"><span>Calculator</span> Create a calculator that performs mathematical operations.</div>
+                </div>                
+                <pre><code class="html-code">
+const time = document.getElementById('time');
+const dateId = document.getElementById('date');
+
+export function showDateAndTime() {
+  const today = new Date();
+  const getTimezone = new Date(new Date().toLocaleString('en-US', { timeZone }));
+  const day = today.toLocaleString(language, {
+    weekday: 'short',
+  });
+  const month = today.toLocaleString(language, {
+    month: 'long',
+  });
+  const date = today.getDate();
+  dateId.innerHTML = `${day} ${date} ${month}`;
+
+  time.innerHTML = getTimezone.toLocaleTimeString();
+}
+export function getTimesOfDay(hour = new Date().getHours()) {
+  return hour >= 21 || hour < 5 ? 'night' : 'day';
+}
+}</code>
+</pre>
+            </div>  
+        </section>    
+    </main>
     <footer class="footer-block">
+        <nav class="page-navigation">
+            <a href="#">HOME</a>
+            <a href="#skills">SKILLS</a>
+            <a href="#works">WORKS</a>
+        </nav>
         <div>
-            <a href="https://github.com/AlexGrin1" target="_blank" class="link" alt="AlexGrin1" title="AlexGrin1"><img src="./image/github.png" alt="github" width="16px" height="16px" title="AlexGrin1"></a>
-            <span>Alexander Hrynevich 2021</span>
+            <a href="https://github.com/AlexGrin1" target="_blank" class="link" alt="AlexGrin1" title="AlexGrin1"><img
+                    src="./image/github.png" alt="github" width="16" height="16" title="AlexGrin1"></a>
+            <span>2021</span>
         </div>
-        <ul class="rsschool-logo">
-                <li class="notmark"><img src="./image/rs_school_js.svg" alt="RsSchool" title="RsSchool"  width="60px"><a href="https://rs.school/js/" alt="RsSchool" title="RsSchool" class="link" ></a></li> 
-        </ul>
+        <div>
+            <img src="./image/rs_school_js.svg" alt="RsSchool" title="RsSchool" width="60px"><a
+                href="https://rs.school/js/" alt="RsSchool" title="RsSchool" class="link"></a>
+        </div>
     </footer>
 </body>
+
 </html>
