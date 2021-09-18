@@ -7,14 +7,25 @@
     <link rel="icon" type="image/png" sizes="250x250"
         href="https://p7.hiclipart.com/preview/817/219/681/curriculum-vitae-management-afacere-cornell-university-logo-curriculum-vitae-template.jpg">
     <link rel="stylesheet" href="./styles.css">
-    <title>Front-End || Alexander Hr.</title>
+    <link rel="stylesheet" href="./burger-menu.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <title>Front-End || Alexander Hr.</title>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 </head>
 
 <body>
-    <header class="head-block">
+        <span class="burger">
+            <span class="burger_center_line"></span>
+        </span>
+        <div class="burger_menu_none " id="burger">
+            <nav class="burger_nav">
+                <a class="burger_nav_link" href="#">HOME</a>
+                <a class="burger_nav_link" href="#skills">SKILLS</a>
+                <a class="burger_nav_link" href="#works">WORKS</a>
+            </nav>
+        </div>
+    <header class="head-block">  
         <div class="head-block__avatar">
             <figure>
                 <img class="img" src="./image/my_foto1.png" alt="avatar" title="Alexander">
@@ -28,7 +39,6 @@
             </nav>
             <p class="head_title"> Alexander Hrynevich </p>
             <p class="head-block__subtitle_mini shadow">Junior Frontend Developer</p>
-           
         </div>
     </header>
     <main class="container">
@@ -144,12 +154,14 @@ export function getTimesOfDay(hour = new Date().getHours()) {
             <a href="#works">WORKS</a>
         </nav>
         <div>
-            <a href="https://github.com/AlexGrin1" target="_blank" class="link" title="AlexGrin1"><img src="./image/github.png" alt="github" width="16" height="16" title="AlexGrin1"></a>
+            
             <span>2021</span>
         </div>
         <div>
-            <img src="./image/rs_school_js.svg" alt="RsSchool" title="RsSchool" width="60"><a href="https://rs.school/js/" title="RsSchool" class="link"></a>
+            <a href="https://github.com/AlexGrin1" target="_blank" class="link" title="AlexGrin1"><img src="./image/github.png" alt="github" width="25" height="25" title="AlexGrin1"></a>
+            <a href="https://rs.school/js/" title="RsSchool" class="link" target="_blank"><img src="./image/rs_school_js.svg" alt="RsSchool" title="RsSchool" width="60"></a>
         </div>
     </footer>
+    <script src="./script.js"></script>
 </body>
 </html>
