@@ -36,10 +36,10 @@
             <h3 class="subtitle">Contact</h3>
             <p>Location: Minsk/Belarus</p>
             <ul class="contact">
-                <li class="notmark"><img class="invert" src="./image/phone.png" title="Phone" height="20" width="20"><a href="tel:+375445369968" alt="phone" title="Phone" class="link"> +375(44)536-99-68 </a></li>
+                <li class="notmark"><img class="invert" src="./image/phone.png" title="Phone" height="20" width="20"><a href="tel:+375445369968" title="Phone" class="link"> +375(44)536-99-68 </a></li>
                 <li class="notmark"><img class="invert" src="./image/mail.png" height="20" width="20" title="Send mail">
                     <a href="mailto:a_grynevich@mail.ru" target="_blank" class="link" title="Send mail">a_grynevich@mail.ru </a></li>
-                <li class="notmark"><img class="invert" src="./image/github.png" width="20" height="20" title="AlexGrin1"><a href="https://github.com/AlexGrin1" target="_blank" class="link" alt="AlexGrin1" title="AlexGrin1"> github.com/AlexGrin1</a></li>
+                <li class="notmark"><img class="invert" src="./image/github.png" width="20" height="20" title="AlexGrin1"><a href="https://github.com/AlexGrin1" target="_blank" class="link" title="AlexGrin1"> github.com/AlexGrin1</a></li>
             </ul>
             <h3 class="subtitle">Education</h3>
             <p>HIGHER TECHNICAL </p>
@@ -81,9 +81,9 @@
                     <li class="date">Nov 2020- Dec 2020</li>
                     <li>Completed the course "Python - development for beginners" on Netology.ru</li>
                     <li class="date">2020 - self education</li>
-                    <li>Computer Science Basics on<a href="https://learn.epam.com" target="_blank" class="link-text" alt="learn.epam.com" title="learn.epam.com"> learn.epam.com</a>
+                    <li>Computer Science Basics on<a href="https://learn.epam.com" target="_blank" class="link-text" title="learn.epam.com"> learn.epam.com</a>
                     <br>
-                     HTML,CSS Basic; Online cource of HTML, CSS and JS on <a href="https://ru.code-basics.com" target="_blank" class="link-text" alt="ru.code-basics.com" title="ru.code-basics.com">code-basics.com</a></li>
+                     HTML,CSS Basic; Online cource of HTML, CSS and JS on <a href="https://ru.code-basics.com" target="_blank" class="link-text" title="ru.code-basics.com">code-basics.com</a></li>
                 </ul>
                 <h3 class="subtitle">Personal qualities</h3>
                 <ul class="info">
@@ -130,7 +130,7 @@ export function showDateAndTime() {
   time.innerHTML = getTimezone.toLocaleTimeString();
 }
 export function getTimesOfDay(hour = new Date().getHours()) {
-  return hour >= 21 || hour &lt 5 ? 'night' : 'day';}
+  return hour >= 21 || hour &lt; 5 ? 'night' : 'day';}
 }
     </code>
 </pre>
@@ -144,11 +144,11 @@ export function getTimesOfDay(hour = new Date().getHours()) {
             <a href="#works">WORKS</a>
         </nav>
         <div>
-            <a href="https://github.com/AlexGrin1" target="_blank" class="link" alt="AlexGrin1" title="AlexGrin1"><img src="./image/github.png" alt="github" width="16" height="16" title="AlexGrin1"></a>
+            <a href="https://github.com/AlexGrin1" target="_blank" class="link" title="AlexGrin1"><img src="./image/github.png" alt="github" width="16" height="16" title="AlexGrin1"></a>
             <span>2021</span>
         </div>
         <div>
-            <img src="./image/rs_school_js.svg" alt="RsSchool" title="RsSchool" width="60px"><a href="https://rs.school/js/" alt="RsSchool" title="RsSchool" class="link"></a>
+            <img src="./image/rs_school_js.svg" alt="RsSchool" title="RsSchool" width="60"><a href="https://rs.school/js/" title="RsSchool" class="link"></a>
         </div>
     </footer>
 </body>
