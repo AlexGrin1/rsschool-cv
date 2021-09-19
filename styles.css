@@ -302,6 +302,9 @@ a:hover {
   .page-navigation {
     font-size: 15px;
   }
+  .html-code {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -316,6 +319,9 @@ a:hover {
   }
   .head-block__subtitle_mini {
     font-size: 18px;
+  }
+  .html-code {
+    font-size: 12px;
   }
 }
 @media screen and (max-width: 500px) {
@@ -406,6 +412,9 @@ a:hover {
   .page-navigation > a {
     padding-left: 5px;
     padding-right: 5px;
+  }
+  .html-code {
+    font-size: 8px;
   }
 }
 @media screen and (max-width: 350px) {
