@@ -127,7 +127,8 @@ const dateId = document.getElementById('date');
 
 export function showDateAndTime() {
   const today = new Date();
-  const getTimezone = new Date(new Date().toLocaleString('en-US', { timeZone }));
+  const getTimezone = new Date(new Date().toLocaleString(
+      'en-US', { timeZone }));
   const day = today.toLocaleString(language, {
     weekday: 'short',
   });
